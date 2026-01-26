@@ -3,8 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EZE Marketing Digital - Agencia Digital</title>
+    <title>EZE Marketing Digital - Agencia Digital | Marketing y Transformación Digital</title>
+    <meta name="description" content="EZE Marketing Digital es una agencia especializada en marketing digital, desarrollo web, transformación digital y servicios 360. Más de 8 años de experiencia y 300+ proyectos exitosos. Contrata tu equipo de marketing digital rápido y fácil.">
+    <meta name="keywords" content="marketing digital, agencia digital, desarrollo web, transformación digital, SEO, SEM, diseño web, e-commerce, servicios 360, marketing online, agencia marketing">
+    <meta name="author" content="EZE Marketing Digital">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.ezemarketing.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ezemarketing.com/">
+    <meta property="og:title" content="EZE Marketing Digital - Agencia Digital | Marketing y Transformación Digital">
+    <meta property="og:description" content="Transformamos tu visión en realidad digital. Especialistas en crear estrategias integrales que impulsan el crecimiento de tu negocio.">
+    <meta property="og:image" content="https://www.ezemarketing.com/assets/eze marketing png.png">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="EZE Marketing Digital">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.ezemarketing.com/">
+    <meta name="twitter:title" content="EZE Marketing Digital - Agencia Digital">
+    <meta name="twitter:description" content="Transformamos tu visión en realidad digital. Especialistas en crear estrategias integrales que impulsan el crecimiento de tu negocio.">
+    <meta name="twitter:image" content="https://www.ezemarketing.com/assets/eze marketing png.png">
+    
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
+    
+    <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" href="sitemap.xml">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
@@ -24,11 +55,11 @@
 <body class="bg-white text-gray-900">
     <!-- Header -->
     <header class="sticky top-0 z-50 bg-[#03045e] border-b border-[#023e8a] shadow-lg">
-        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" role="navigation" aria-label="Navegación principal">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center">
                     <a href="index.html" class="flex items-center space-x-2">
-                        <img src="assets/eze marketing png.png" alt="EZE Marketing" class="h-10">
+                        <img src="assets/eze marketing png.png" alt="EZE Marketing Digital - Logo Agencia de Marketing Digital" class="h-10" width="120" height="40">
                     </a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
@@ -65,9 +96,9 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-[#03045e] via-[#023e8a] to-[#0077b6] text-white py-20 lg:py-32">
+    <section class="bg-gradient-to-br from-[#03045e] via-[#023e8a] to-[#0077b6] text-white py-20 lg:py-32" itemscope itemtype="https://schema.org/WebPage">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight" itemprop="headline">
                 CONTRATA TU EQUIPO DE<br/>
                 <span class="text-[#ff5400]">MARKETING DIGITAL</span><br/>
                 rápido y fácil
@@ -331,5 +362,100 @@
             </div>
         </div>
     </footer>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "EZE Marketing Digital",
+        "url": "https://www.ezemarketing.com",
+        "logo": "https://www.ezemarketing.com/assets/eze marketing png.png",
+        "description": "Agencia especializada en marketing digital, desarrollo web y transformación digital",
+        "foundingDate": "2017",
+        "numberOfEmployees": "50+",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Global",
+            "addressLocality": "Remoto Global"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-555-123-4567",
+            "contactType": "customer service",
+            "email": "contacto@ezemarketing.com",
+            "availableLanguage": "Spanish"
+        },
+        "sameAs": [
+            "https://www.instagram.com/ezemarketing",
+            "https://www.facebook.com/ezemarketing",
+            "https://www.linkedin.com/company/ezemarketing"
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "300+"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "EZE Marketing Digital",
+        "url": "https://www.ezemarketing.com",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.ezemarketing.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Marketing Digital y Desarrollo Web",
+        "provider": {
+            "@type": "Organization",
+            "name": "EZE Marketing Digital"
+        },
+        "areaServed": "Worldwide",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicios Digitales",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Diseño y Desarrollo Web"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Marketing Digital"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Servicios 360"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Transformación Digital"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
 </body>
 </html>

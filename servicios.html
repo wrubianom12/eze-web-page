@@ -3,7 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios - EZE Marketing Digital</title>
+    <title>Servicios - EZE Marketing Digital | Desarrollo Web, Marketing Digital y Transformación</title>
+    <meta name="description" content="Servicios digitales completos: Diseño y Desarrollo Web, Marketing Digital, Servicios 360 y Transformación Digital. Soluciones adaptadas a tu forma de trabajar.">
+    <meta name="keywords" content="servicios marketing digital, desarrollo web, diseño web, SEO, SEM, e-commerce, transformación digital, servicios 360, PWA, growth hacking">
+    <meta name="author" content="EZE Marketing Digital">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.ezemarketing.com/servicios.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ezemarketing.com/servicios.html">
+    <meta property="og:title" content="Servicios - EZE Marketing Digital | Desarrollo Web y Marketing">
+    <meta property="og:description" content="Soluciones adaptadas a tu forma de trabajar. Entendemos tu problema antes de construir la solución.">
+    <meta property="og:image" content="https://www.ezemarketing.com/assets/eze marketing png.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Servicios - EZE Marketing Digital">
+    <meta name="twitter:description" content="Diseño Web, Marketing Digital, Servicios 360 y Transformación Digital.">
+    <meta name="twitter:image" content="https://www.ezemarketing.com/assets/eze marketing png.png">
+    
     <link rel="icon" type="image/png" href="assets/favicon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -18,7 +37,7 @@
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center">
                     <a href="index.html" class="flex items-center space-x-2">
-                        <img src="assets/eze marketing png.png" alt="EZE Marketing" class="h-10">
+                        <img src="assets/eze marketing png.png" alt="EZE Marketing Digital - Logo Agencia de Marketing Digital" class="h-10" width="120" height="40">
                     </a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
@@ -63,7 +82,7 @@
     </section>
 
     <!-- Servicio 1: Desarrollo Web -->
-    <section id="web" class="py-20 bg-white">
+    <section id="web" class="py-20 bg-white" itemscope itemtype="https://schema.org/Service">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
@@ -72,8 +91,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                         </svg>
                     </div>
-                    <h2 class="text-4xl md:text-5xl font-black mb-6">Diseño y Desarrollo Web</h2>
-                    <p class="text-lg text-gray-600 mb-6">
+                    <h2 class="text-4xl md:text-5xl font-black mb-6" itemprop="name">Diseño y Desarrollo Web</h2>
+                    <p class="text-lg text-gray-600 mb-6" itemprop="description">
                         Arquitecturas modernas, escalables y optimizadas para el rendimiento y SEO. Creamos ecosistemas digitales robustos que convierten visitantes en clientes.
                     </p>
                     <ul class="space-y-3 mb-8">
@@ -341,5 +360,62 @@
             </div>
         </div>
     </footer>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Servicios Digitales",
+        "provider": {
+            "@type": "Organization",
+            "name": "EZE Marketing Digital",
+            "url": "https://www.ezemarketing.com"
+        },
+        "areaServed": "Worldwide",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicios de Marketing Digital y Desarrollo Web",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Diseño y Desarrollo Web",
+                        "description": "Arquitecturas modernas, escalables y optimizadas para el rendimiento y SEO. Progressive Web Apps, E-commerce y diseño UX/UI.",
+                        "serviceType": "Desarrollo Web"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Marketing Digital",
+                        "description": "Estrategias de crecimiento impulsadas por datos. SEM/Ads, Inbound Marketing, Analítica Web y Content Marketing.",
+                        "serviceType": "Marketing Digital"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Servicios 360",
+                        "description": "Ecosistema Digital completo con diseño de producto, soporte técnico 24/7, growth hacking y consultoría estratégica.",
+                        "serviceType": "Servicios Integrales"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Transformación Digital",
+                        "description": "Migración a la nube, automatización de procesos, consultoría tecnológica y diagnóstico digital.",
+                        "serviceType": "Transformación Digital"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
 </body>
 </html>

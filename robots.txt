@@ -1,0 +1,18 @@
+# robots.txt para EZE Marketing Digital
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.ezemarketing.com/sitemap.xml
+
+# Deshabilitar acceso a archivos de sistema (si existen)
+Disallow: /code/
+Disallow: /*.bak$
+Disallow: /*.tmp$
+
+# Permitir acceso a assets
+Allow: /assets/
+
+# Crawl-delay (opcional, ajustar según necesidades)
+Crawl-delay: 1
