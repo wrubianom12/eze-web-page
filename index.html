@@ -54,7 +54,7 @@
 </head>
 <body class="bg-white text-gray-900">
     <!-- Header -->
-    <header class="sticky top-0 z-50 bg-[#03045e] border-b border-[#023e8a] shadow-lg">
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" role="navigation" aria-label="Navegación principal">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center">
@@ -63,30 +63,15 @@
                     </a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="nosotros.html" class="text-white hover:text-[#ff5400] transition-colors font-medium">Nosotros</a>
-                    <div class="relative group">
-                        <button class="text-white hover:text-[#ff5400] transition-colors font-medium flex items-center">
-                            Servicios
-                            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </button>
-                        <div class="absolute left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                            <div class="py-2">
-                                <a href="servicios.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#ff5400]">Todos los Servicios</a>
-                                <a href="servicios.html#web" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#ff5400]">Diseño y Desarrollo Web</a>
-                                <a href="servicios.html#marketing" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#ff5400]">Marketing Digital</a>
-                                <a href="servicios.html#360" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#ff5400]">Servicios 360</a>
-                                <a href="servicios.html#transformacion" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#ff5400]">Transformación Digital</a>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="index.html#trabajo" class="text-white hover:text-[#ff5400] transition-colors font-medium">Nuestro Trabajo</a>
+                    <a href="servicios.html" class="text-gray-700 hover:text-[#ff5400] transition-colors font-medium">Servicios</a>
+                    <a href="nosotros.html" class="text-gray-700 hover:text-[#ff5400] transition-colors font-medium">Nosotros</a>
+                    <a href="index.html#trabajo" class="text-gray-700 hover:text-[#ff5400] transition-colors font-medium">Portafolio</a>
+                    <a href="contacto.html" class="text-gray-700 hover:text-[#ff5400] transition-colors font-medium">Contacto</a>
                     <a href="contacto.html" class="bg-[#ff5400] text-white px-6 py-2 rounded-lg font-semibold hover:bg-[#ff6d00] transition-colors">
-                        Programar llamada
+                        Consulta Gratis
                     </a>
                 </div>
-                <button class="md:hidden text-white">
+                <button class="md:hidden text-gray-700">
                     <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
@@ -95,107 +80,248 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-[#03045e] via-[#023e8a] to-[#0077b6] text-white py-20 lg:py-32" itemscope itemtype="https://schema.org/WebPage">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight" itemprop="headline">
-                CONTRATA TU EQUIPO DE<br/>
-                <span class="text-[#ff5400]">MARKETING DIGITAL</span><br/>
-                rápido y fácil
-            </h1>
-            <p class="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
-                Transformamos tu visión en realidad digital. Especialistas en crear estrategias integrales que impulsan el crecimiento de tu negocio.
-            </p>
-            <a href="contacto.html" class="inline-block bg-[#ff5400] hover:bg-[#ff6d00] text-white font-bold px-8 py-4 rounded-lg text-lg transition-all transform hover:scale-105 shadow-xl">
-                Contrata a tu equipo
-            </a>
+    <!-- Hero Section - Estilo SendPulse -->
+    <section class="bg-gradient-to-br from-[#03045e] via-[#023e8a] to-[#0077b6] text-white py-16 lg:py-24" itemscope itemtype="https://schema.org/WebPage">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight" itemprop="headline">
+                    Impulsa tu marketing digital con un conjunto de herramientas esenciales
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-200 mb-8">
+                    Consigue nuevos clientes potenciales, interacción de tu audiencia y la fidelización de clientes, todo desde una única plataforma
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="contacto.html" class="inline-block bg-[#ff5400] hover:bg-[#ff6d00] text-white font-bold px-8 py-4 rounded-lg text-lg transition-all transform hover:scale-105 shadow-xl">
+                        Consulta Gratis
+                    </a>
+                    <a href="servicios.html" class="inline-block bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all backdrop-blur-sm border border-white/20">
+                        Ver Servicios
+                    </a>
+                </div>
+                <p class="text-sm text-gray-300 mt-4">Sin necesidad de tarjeta de crédito • Respuesta en 24 horas</p>
+            </div>
         </div>
     </section>
 
-    <!-- Stats Section -->
-    <section class="py-16 bg-gray-50">
+    <!-- Plan Gratuito Destacado - Estilo SendPulse -->
+    <section class="py-12 bg-gradient-to-r from-[#ff5400] to-[#ff6d00] text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <p class="text-center text-xl text-gray-600 mb-12">
-                Más de <strong class="text-[#03045e] font-bold">300 proyectos</strong> junto a startups, empresas e instituciones globales.
-            </p>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="text-5xl md:text-6xl font-black text-[#ff5400] mb-2">8+</div>
-                    <div class="text-gray-600 font-medium">Años de Experiencia</div>
-                </div>
-                <div class="text-center">
-                    <div class="text-5xl md:text-6xl font-black text-[#ff5400] mb-2">50+</div>
-                    <div class="text-gray-600 font-medium">Especialistas</div>
-                </div>
-                <div class="text-center">
-                    <div class="text-5xl md:text-6xl font-black text-[#ff5400] mb-2">100%</div>
-                    <div class="text-gray-600 font-medium">Remoto</div>
-                </div>
-                <div class="text-center">
-                    <div class="text-5xl md:text-6xl font-black text-[#ff5400] mb-2">300+</div>
-                    <div class="text-gray-600 font-medium">Proyectos</div>
+            <div class="text-center">
+                <h2 class="text-2xl md:text-3xl font-black mb-4">Empieza gratis con EZE Marketing</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8 max-w-5xl mx-auto">
+                    <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                        <div class="text-3xl font-black mb-2">300+</div>
+                        <div class="text-sm">Proyectos Exitosos</div>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                        <div class="text-3xl font-black mb-2">50+</div>
+                        <div class="text-sm">Especialistas</div>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                        <div class="text-3xl font-black mb-2">100%</div>
+                        <div class="text-sm">Remoto Global</div>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                        <div class="text-3xl font-black mb-2">8+</div>
+                        <div class="text-sm">Años Experiencia</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Servicios Section -->
+    <!-- Sección de Confianza - Estilo SendPulse -->
+    <section class="py-12 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-lg text-gray-600 mb-8">
+                Con la confianza de <strong class="text-[#03045e] font-bold">+300 empresas</strong>. Recomendado por <strong class="text-[#03045e] font-bold">+4.9/5</strong> reseñas
+            </p>
+            <div class="flex flex-wrap justify-center items-center gap-8 opacity-60">
+                <div class="text-2xl font-bold text-gray-400">Cliente 1</div>
+                <div class="text-2xl font-bold text-gray-400">Cliente 2</div>
+                <div class="text-2xl font-bold text-gray-400">Cliente 3</div>
+                <div class="text-2xl font-bold text-gray-400">Cliente 4</div>
+                <div class="text-2xl font-bold text-gray-400">Cliente 5</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Herramientas Organizadas por Categorías - Estilo SendPulse -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl md:text-5xl font-black text-center mb-4">
-                Nuestros Principales<br/>
-                <span class="text-[#ff5400]">Servicios</span>
+                Herramientas de marketing<br/>
+                <span class="text-[#ff5400]">multicanal</span>
             </h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
-                <div class="bg-white border-2 border-gray-100 rounded-xl p-6 hover:border-[#ff5400] transition-all hover:shadow-xl">
-                    <div class="w-16 h-16 bg-[#00b4d8]/10 rounded-lg flex items-center justify-center mb-4">
-                        <svg class="w-8 h-8 text-[#00b4d8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Diseño y Desarrollo Web</h3>
-                    <p class="text-gray-600">Arquitecturas modernas, escalables y optimizadas para el rendimiento y SEO.</p>
+            <p class="text-center text-xl text-gray-600 mb-16 max-w-3xl mx-auto">
+                Empieza con nuestra consulta gratuita para personalizar todas las herramientas según tus necesidades, probar estrategias y ver tus primeros resultados
+            </p>
+
+            <!-- Categoría: DESARROLLA -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-black text-[#03045e] mb-8">DESARROLLA</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <a href="servicios.html#web" class="group bg-white border-2 border-gray-100 rounded-xl p-6 hover:border-[#ff5400] transition-all hover:shadow-xl">
+                        <div class="w-14 h-14 bg-[#00b4d8]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#00b4d8]/20 transition-colors">
+                            <svg class="w-7 h-7 text-[#00b4d8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2 group-hover:text-[#ff5400] transition-colors">Diseño y Desarrollo Web</h4>
+                        <p class="text-gray-600 text-sm">Arquitecturas modernas, escalables y optimizadas para el rendimiento y SEO.</p>
+                    </a>
+                    <a href="servicios.html#web" class="group bg-white border-2 border-gray-100 rounded-xl p-6 hover:border-[#ff5400] transition-all hover:shadow-xl">
+                        <div class="w-14 h-14 bg-[#0096c7]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#0096c7]/20 transition-colors">
+                            <svg class="w-7 h-7 text-[#0096c7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2 group-hover:text-[#ff5400] transition-colors">E-commerce</h4>
+                        <p class="text-gray-600 text-sm">Plataformas de comercio electrónico de alto rendimiento y escalables.</p>
+                    </a>
+                    <a href="servicios.html#web" class="group bg-white border-2 border-gray-100 rounded-xl p-6 hover:border-[#ff5400] transition-all hover:shadow-xl">
+                        <div class="w-14 h-14 bg-[#0077b6]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#0077b6]/20 transition-colors">
+                            <svg class="w-7 h-7 text-[#0077b6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2 group-hover:text-[#ff5400] transition-colors">Progressive Web Apps</h4>
+                        <p class="text-gray-600 text-sm">Aplicaciones web progresivas con experiencia de app nativa.</p>
+                    </a>
                 </div>
-                <div class="bg-white border-2 border-gray-100 rounded-xl p-6 hover:border-[#ff5400] transition-all hover:shadow-xl">
-                    <div class="w-16 h-16 bg-[#0096c7]/10 rounded-lg flex items-center justify-center mb-4">
-                        <svg class="w-8 h-8 text-[#0096c7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Marketing Digital</h3>
-                    <p class="text-gray-600">Estrategias de crecimiento impulsadas por datos y resultados medibles en tiempo real.</p>
+            </div>
+
+            <!-- Categoría: PROMOCIONA -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-black text-[#03045e] mb-8">PROMOCIONA</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <a href="servicios.html#marketing" class="group bg-white border-2 border-gray-100 rounded-xl p-6 hover:border-[#ff5400] transition-all hover:shadow-xl">
+                        <div class="w-14 h-14 bg-[#ff5400]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#ff5400]/20 transition-colors">
+                            <svg class="w-7 h-7 text-[#ff5400]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2 group-hover:text-[#ff5400] transition-colors">Marketing Digital</h4>
+                        <p class="text-gray-600 text-sm">Estrategias de crecimiento impulsadas por datos y resultados medibles.</p>
+                    </a>
+                    <a href="servicios.html#marketing" class="group bg-white border-2 border-gray-100 rounded-xl p-6 hover:border-[#ff5400] transition-all hover:shadow-xl">
+                        <div class="w-14 h-14 bg-[#ff6d00]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#ff6d00]/20 transition-colors">
+                            <svg class="w-7 h-7 text-[#ff6d00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2 group-hover:text-[#ff5400] transition-colors">SEO y SEM</h4>
+                        <p class="text-gray-600 text-sm">Optimización para motores de búsqueda y publicidad pagada.</p>
+                    </a>
+                    <a href="servicios.html#marketing" class="group bg-white border-2 border-gray-100 rounded-xl p-6 hover:border-[#ff5400] transition-all hover:shadow-xl">
+                        <div class="w-14 h-14 bg-[#ff8500]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#ff8500]/20 transition-colors">
+                            <svg class="w-7 h-7 text-[#ff8500]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2 group-hover:text-[#ff5400] transition-colors">Content Marketing</h4>
+                        <p class="text-gray-600 text-sm">Estrategias de contenido que atraen y convierten audiencias.</p>
+                    </a>
                 </div>
-                <div class="bg-white border-2 border-gray-100 rounded-xl p-6 hover:border-[#ff5400] transition-all hover:shadow-xl">
-                    <div class="w-16 h-16 bg-[#00b4d8]/10 rounded-lg flex items-center justify-center mb-4">
-                        <svg class="w-8 h-8 text-[#00b4d8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Servicios 360</h3>
-                    <p class="text-gray-600">Ecosistema Digital completo. Integramos todas las áreas necesarias para crear una presencia digital sólida.</p>
-                </div>
-                <div class="bg-white border-2 border-gray-100 rounded-xl p-6 hover:border-[#ff5400] transition-all hover:shadow-xl">
-                    <div class="w-16 h-16 bg-[#0077b6]/10 rounded-lg flex items-center justify-center mb-4">
-                        <svg class="w-8 h-8 text-[#0077b6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Transformación Digital</h3>
-                    <p class="text-gray-600">Guiamos a tu empresa en su proceso de transformación digital, optimizando procesos y mejorando la eficiencia.</p>
+            </div>
+
+            <!-- Categoría: TRANSFORMA -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-black text-[#03045e] mb-8">TRANSFORMA</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <a href="servicios.html#transformacion" class="group bg-white border-2 border-gray-100 rounded-xl p-6 hover:border-[#ff5400] transition-all hover:shadow-xl">
+                        <div class="w-14 h-14 bg-[#00b4d8]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#00b4d8]/20 transition-colors">
+                            <svg class="w-7 h-7 text-[#00b4d8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2 group-hover:text-[#ff5400] transition-colors">Transformación Digital</h4>
+                        <p class="text-gray-600 text-sm">Guiamos a tu empresa en su proceso de transformación digital completa.</p>
+                    </a>
+                    <a href="servicios.html#360" class="group bg-white border-2 border-gray-100 rounded-xl p-6 hover:border-[#ff5400] transition-all hover:shadow-xl">
+                        <div class="w-14 h-14 bg-[#0096c7]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#0096c7]/20 transition-colors">
+                            <svg class="w-7 h-7 text-[#0096c7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2 group-hover:text-[#ff5400] transition-colors">Servicios 360</h4>
+                        <p class="text-gray-600 text-sm">Ecosistema Digital completo con acompañamiento integral.</p>
+                    </a>
+                    <a href="servicios.html#transformacion" class="group bg-white border-2 border-gray-100 rounded-xl p-6 hover:border-[#ff5400] transition-all hover:shadow-xl">
+                        <div class="w-14 h-14 bg-[#0077b6]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#0077b6]/20 transition-colors">
+                            <svg class="w-7 h-7 text-[#0077b6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2 group-hover:text-[#ff5400] transition-colors">Migración a la Nube</h4>
+                        <p class="text-gray-600 text-sm">Modernización de infraestructura y migración cloud.</p>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Nuestro Trabajo Section -->
-    <section id="trabajo" class="py-20 bg-gray-50">
+    <!-- Sección por Tipo de Usuario - Estilo SendPulse -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl md:text-5xl font-black text-center mb-4">
+                Una plataforma versátil para<br/>
+                <span class="text-[#ff5400]">profesionales de cualquier campo</span>
+            </h2>
+            <p class="text-center text-xl text-gray-600 mb-16 max-w-3xl mx-auto">
+                Usa EZE Marketing para hacer crecer tu negocio de forma independiente, gestionar un equipo de cualquier dimensión o dar a conocer tu marca en Internet
+            </p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 bg-[#ff5400]/10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-[#ff5400]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Empresarios</h3>
+                    <p class="text-gray-600">Pon tu marca en el mapa sin contratar profesionales externos. Aprovecha nuestras herramientas prácticas para completar tus tareas de marketing con mayor rapidez.</p>
+                </div>
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 bg-[#00b4d8]/10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-[#00b4d8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Startups</h3>
+                    <p class="text-gray-600">Desarrolla y escala tu negocio desde cero. Con EZE Marketing puedes crear, comercializar y vender, todo en una misma plataforma.</p>
+                </div>
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 bg-[#0096c7]/10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-[#0096c7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Empresas</h3>
+                    <p class="text-gray-600">Gestiona eficazmente todos tus canales de comunicación y procesos de ventas. Maximiza la interacción de tus clientes con nuestra plataforma automatizada.</p>
+                </div>
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 bg-[#0077b6]/10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-[#0077b6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Profesionales de Marketing</h3>
+                    <p class="text-gray-600">Lleva a cabo todas tus iniciativas de marketing en una única plataforma y gestiona tu comunicación con los clientes a través de múltiples canales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portafolio - Nuestro Trabajo -->
+    <section id="trabajo" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl md:text-5xl font-black text-center mb-4">
                 Así impactamos con<br/>
                 <span class="text-[#ff5400]">Nuestro Trabajo</span>
             </h2>
             <div class="grid md:grid-cols-3 gap-8 mt-16">
-                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
                     <div class="h-48 bg-gradient-to-br from-[#03045e] to-[#0077b6]"></div>
                     <div class="p-6">
                         <div class="flex items-center justify-between mb-2">
@@ -203,10 +329,10 @@
                             <span class="text-xs text-gray-500">Web + Marketing</span>
                         </div>
                         <h3 class="text-xl font-bold mb-2">Plataforma E-commerce Completa</h3>
-                        <p class="text-gray-600 text-sm">Para una empresa líder en retail, desarrollamos una plataforma e-commerce que centraliza inventario, gestión de pedidos y marketing digital, aumentando las ventas en un 250%.</p>
+                        <p class="text-gray-600 text-sm">Desarrollamos una plataforma e-commerce que centraliza inventario, gestión de pedidos y marketing digital, aumentando las ventas en un 250%.</p>
                     </div>
                 </div>
-                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
                     <div class="h-48 bg-gradient-to-br from-[#00b4d8] to-[#0096c7]"></div>
                     <div class="p-6">
                         <div class="flex items-center justify-between mb-2">
@@ -214,10 +340,10 @@
                             <span class="text-xs text-gray-500">Web + App</span>
                         </div>
                         <h3 class="text-xl font-bold mb-2">Plataforma SaaS de Gestión</h3>
-                        <p class="text-gray-600 text-sm">Creamos una plataforma SaaS completa que permite a empresas gestionar sus operaciones, clientes y equipos desde un solo lugar, mejorando la productividad en un 40%.</p>
+                        <p class="text-gray-600 text-sm">Plataforma SaaS completa que permite gestionar operaciones, clientes y equipos desde un solo lugar, mejorando la productividad en un 40%.</p>
                     </div>
                 </div>
-                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
                     <div class="h-48 bg-gradient-to-br from-[#ff5400] to-[#ff6d00]"></div>
                     <div class="p-6">
                         <div class="flex items-center justify-between mb-2">
@@ -225,96 +351,26 @@
                             <span class="text-xs text-gray-500">Marketing Digital</span>
                         </div>
                         <h3 class="text-xl font-bold mb-2">Estrategia Marketing Digital 360</h3>
-                        <p class="text-gray-600 text-sm">Desarrollamos una estrategia integral de marketing digital que incluye redes sociales, SEO, SEM y contenido, logrando aumentar el tráfico orgánico en un 300%.</p>
+                        <p class="text-gray-600 text-sm">Estrategia integral de marketing digital que incluye redes sociales, SEO, SEM y contenido, logrando aumentar el tráfico orgánico en un 300%.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Co-creación Section -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl md:text-5xl font-black text-center mb-4">
-                Nuestro Enfoque de<br/>
-                <span class="text-[#ff5400]">Co-creación</span>
-            </h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
-                <div class="text-center">
-                    <div class="w-20 h-20 bg-[#ff5400] rounded-full flex items-center justify-center mx-auto mb-4">
-                        <span class="text-white text-2xl font-bold">IDEAR</span>
-                    </div>
-                    <p class="text-gray-600">Unimos criterio humano + tecnología avanzada para crear soluciones innovadoras.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-20 h-20 bg-[#ff6d00] rounded-full flex items-center justify-center mx-auto mb-4">
-                        <span class="text-white text-2xl font-bold">ACTIVAR</span>
-                    </div>
-                    <p class="text-gray-600">Soluciones útiles en ciclos cortos. Implementamos rápido para resultados inmediatos.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-20 h-20 bg-[#00b4d8] rounded-full flex items-center justify-center mx-auto mb-4">
-                        <span class="text-white text-2xl font-bold">ESCUCHAR</span>
-                    </div>
-                    <p class="text-gray-600">Entendemos tu contexto real. Analizamos tus necesidades y desafíos específicos.</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-20 h-20 bg-[#0096c7] rounded-full flex items-center justify-center mx-auto mb-4">
-                        <span class="text-white text-2xl font-bold">EVOLUCIONAR</span>
-                    </div>
-                    <p class="text-gray-600">Refinamos con datos y tu feedback. Mejora continua para optimizar resultados.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonios Section -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl md:text-5xl font-black text-center mb-16">Testimonios</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-xl shadow-lg">
-                    <p class="text-gray-600 mb-6 italic">"EZE Marketing es una empresa comprometida. Sus colaboradores son personas que trabajan con determinación y, en nuestro caso, han sido una pieza clave en el crecimiento de nuestro proyecto"</p>
-                    <div class="flex items-center">
-                        <div class="w-12 h-12 bg-[#ff5400] rounded-full flex items-center justify-center text-white font-bold mr-4">RP</div>
-                        <div>
-                            <div class="font-bold">Romek Popovici</div>
-                            <div class="text-sm text-gray-500">COO</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-white p-8 rounded-xl shadow-lg">
-                    <p class="text-gray-600 mb-6 italic">"La transformación digital que logramos con EZE Marketing superó todas nuestras expectativas. Su enfoque estratégico y ejecución impecable nos permitió escalar nuestro negocio de manera sostenible"</p>
-                    <div class="flex items-center">
-                        <div class="w-12 h-12 bg-[#00b4d8] rounded-full flex items-center justify-center text-white font-bold mr-4">MG</div>
-                        <div>
-                            <div class="font-bold">María González</div>
-                            <div class="text-sm text-gray-500">CEO</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-white p-8 rounded-xl shadow-lg">
-                    <p class="text-gray-600 mb-6 italic">"Trabajar con EZE Marketing ha sido una experiencia excepcional. Su equipo entiende perfectamente las necesidades del negocio y entrega soluciones que realmente generan valor"</p>
-                    <div class="flex items-center">
-                        <div class="w-12 h-12 bg-[#0096c7] rounded-full flex items-center justify-center text-white font-bold mr-4">CR</div>
-                        <div>
-                            <div class="font-bold">Carlos Rodríguez</div>
-                            <div class="text-sm text-gray-500">Director de Marketing</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
+    <!-- CTA Final - Estilo SendPulse -->
     <section class="py-20 bg-gradient-to-r from-[#03045e] to-[#0077b6] text-white">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-4xl md:text-5xl font-black mb-6">¿EMPEZAMOS AHORA?</h2>
-            <p class="text-xl text-gray-200 mb-8">Sólo necesitas una idea, nosotros te ayudamos a hacerla realidad.</p>
-            <a href="contacto.html" class="inline-block bg-[#ff5400] hover:bg-[#ff6d00] text-white font-bold px-8 py-4 rounded-lg text-lg transition-all transform hover:scale-105 shadow-xl">
-                Contrata a tu equipo
-            </a>
+            <h2 class="text-4xl md:text-5xl font-black mb-6">¿Listo para empezar?</h2>
+            <p class="text-xl text-gray-200 mb-8">Crea una cuenta gratuita. No necesitas tarjeta de crédito.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contacto.html" class="inline-block bg-[#ff5400] hover:bg-[#ff6d00] text-white font-bold px-8 py-4 rounded-lg text-lg transition-all transform hover:scale-105 shadow-xl">
+                    Consulta Gratis
+                </a>
+                <a href="servicios.html" class="inline-block bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all backdrop-blur-sm border border-white/20">
+                    Ver Todos los Servicios
+                </a>
+            </div>
         </div>
     </section>
 
@@ -327,7 +383,7 @@
                     <ul class="space-y-2">
                         <li><a href="index.html" class="text-gray-300 hover:text-[#ff5400] transition-colors">Inicio</a></li>
                         <li><a href="nosotros.html" class="text-gray-300 hover:text-[#ff5400] transition-colors">Acerca de</a></li>
-                        <li><a href="index.html#trabajo" class="text-gray-300 hover:text-[#ff5400] transition-colors">Historias De Éxito</a></li>
+                        <li><a href="index.html#trabajo" class="text-gray-300 hover:text-[#ff5400] transition-colors">Portafolio</a></li>
                         <li><a href="contacto.html" class="text-gray-300 hover:text-[#ff5400] transition-colors">Contacto</a></li>
                     </ul>
                 </div>
@@ -349,7 +405,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h4 class="font-bold text-sm uppercase tracking-widest text-[#00b4d8] mb-4">Siga Con Nosotros</h4>
+                    <h4 class="font-bold text-sm uppercase tracking-widest text-[#00b4d8] mb-4">Síguenos</h4>
                     <div class="flex space-x-4">
                         <a href="#" class="text-gray-300 hover:text-[#ff5400] transition-colors">Instagram</a>
                         <a href="#" class="text-gray-300 hover:text-[#ff5400] transition-colors">Facebook</a>

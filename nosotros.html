@@ -32,8 +32,8 @@
 </head>
 <body class="bg-white text-gray-900">
     <!-- Header -->
-    <header class="sticky top-0 z-50 bg-[#03045e] border-b border-[#023e8a] shadow-lg">
-        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" role="navigation" aria-label="Navegación principal">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center">
                     <a href="index.html" class="flex items-center space-x-2">
@@ -41,38 +41,28 @@
                     </a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="nosotros.html" class="text-[#ff5400] font-medium border-b-2 border-[#ff5400]">Nosotros</a>
-                    <div class="relative group">
-                        <button class="text-white hover:text-[#ff5400] transition-colors font-medium flex items-center">
-                            Servicios
-                            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </button>
-                        <div class="absolute left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                            <div class="py-2">
-                                <a href="servicios.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#ff5400]">Todos los Servicios</a>
-                                <a href="servicios.html#web" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#ff5400]">Diseño y Desarrollo Web</a>
-                                <a href="servicios.html#marketing" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#ff5400]">Marketing Digital</a>
-                                <a href="servicios.html#360" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#ff5400]">Servicios 360</a>
-                                <a href="servicios.html#transformacion" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#ff5400]">Transformación Digital</a>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="index.html#trabajo" class="text-white hover:text-[#ff5400] transition-colors font-medium">Nuestro Trabajo</a>
+                    <a href="servicios.html" class="text-gray-700 hover:text-[#ff5400] transition-colors font-medium">Servicios</a>
+                    <a href="nosotros.html" class="text-[#ff5400] font-medium border-b-2 border-[#ff5400] pb-1">Nosotros</a>
+                    <a href="index.html#trabajo" class="text-gray-700 hover:text-[#ff5400] transition-colors font-medium">Portafolio</a>
+                    <a href="contacto.html" class="text-gray-700 hover:text-[#ff5400] transition-colors font-medium">Contacto</a>
                     <a href="contacto.html" class="bg-[#ff5400] text-white px-6 py-2 rounded-lg font-semibold hover:bg-[#ff6d00] transition-colors">
-                        Programar llamada
+                        Consulta Gratis
                     </a>
                 </div>
+                <button class="md:hidden text-gray-700">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
             </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-[#03045e] via-[#023e8a] to-[#0077b6] text-white py-20 lg:py-32">
+    <section class="bg-gradient-to-br from-[#03045e] via-[#023e8a] to-[#0077b6] text-white py-16 lg:py-24">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="max-w-3xl">
-                <h1 class="text-5xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight">
+            <div class="max-w-4xl">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight">
                     Nosotros
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-200">
@@ -93,11 +83,14 @@
                     <p class="text-lg text-gray-600 mb-4">
                         En <strong class="text-[#ff5400]">EZE Marketing</strong>, la innovación y la transparencia son el núcleo. Creemos en el talento humano potenciado por la tecnología para crear soluciones de alto impacto que resuelven problemas reales.
                     </p>
-                    <p class="text-lg text-gray-600">
+                    <p class="text-lg text-gray-600 mb-6">
                         Trabajamos con metodologías ágiles, fomentamos la colaboración y nos enfocamos en resultados medibles que generan valor real para nuestros clientes.
                     </p>
+                    <a href="contacto.html" class="inline-block bg-[#ff5400] hover:bg-[#ff6d00] text-white font-bold px-6 py-3 rounded-lg transition-all">
+                        Conoce más
+                    </a>
                 </div>
-                <div class="bg-gradient-to-br from-[#03045e] to-[#0077b6] rounded-2xl h-96 flex items-center justify-center">
+                <div class="bg-gradient-to-br from-[#03045e] to-[#0077b6] rounded-2xl h-96 flex items-center justify-center shadow-xl">
                     <img src="assets/eze marketing colors.png" alt="EZE Marketing Digital - Paleta de colores de marca y cultura empresarial" class="max-w-full max-h-full object-contain p-8" width="600" height="400">
                 </div>
             </div>
@@ -107,45 +100,58 @@
     <!-- Metodología Section -->
     <section class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl md:text-5xl font-black text-center mb-4">
-                Metodología de<br/>
-                <span class="text-[#ff5400]">Co-creación</span>
-            </h2>
-            <div class="mt-16 space-y-12">
-                <div class="flex items-start gap-6">
-                    <div class="flex-shrink-0">
-                        <div class="w-16 h-16 bg-[#ff5400] rounded-full flex items-center justify-center text-white font-bold text-xl">1</div>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold mb-3">Discovery</h3>
-                        <p class="text-gray-600 text-lg">Iniciamos con una inmersión profunda en tu modelo de negocio para definir objetivos y estrategias claras. Entendemos tu contexto real antes de construir la solución.</p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-6">
-                    <div class="flex-shrink-0">
-                        <div class="w-16 h-16 bg-[#ff6d00] rounded-full flex items-center justify-center text-white font-bold text-xl">2</div>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold mb-3">Design</h3>
-                        <p class="text-gray-600 text-lg">Diseñamos interfaces intuitivas y experiencias de usuario memorables centradas en el cliente final. Cada diseño está pensado para convertir y generar resultados.</p>
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-black mb-4">
+                    Metodología de<br/>
+                    <span class="text-[#ff5400]">Co-creación</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Un proceso estructurado que garantiza resultados excepcionales en cada proyecto
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0">
+                            <div class="w-16 h-16 bg-[#ff5400] rounded-xl flex items-center justify-center text-white font-bold text-2xl shadow-lg">1</div>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-3 text-[#03045e]">Discovery</h3>
+                            <p class="text-gray-600">Iniciamos con una inmersión profunda en tu modelo de negocio para definir objetivos y estrategias claras. Entendemos tu contexto real antes de construir la solución.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start gap-6">
-                    <div class="flex-shrink-0">
-                        <div class="w-16 h-16 bg-[#00b4d8] rounded-full flex items-center justify-center text-white font-bold text-xl">3</div>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold mb-3">Development</h3>
-                        <p class="text-gray-600 text-lg">Implementamos soluciones robustas utilizando metodologías ágiles y las últimas tecnologías. Soluciones útiles en ciclos cortos para resultados inmediatos.</p>
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0">
+                            <div class="w-16 h-16 bg-[#ff6d00] rounded-xl flex items-center justify-center text-white font-bold text-2xl shadow-lg">2</div>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-3 text-[#03045e]">Design</h3>
+                            <p class="text-gray-600">Diseñamos interfaces intuitivas y experiencias de usuario memorables centradas en el cliente final. Cada diseño está pensado para convertir y generar resultados.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start gap-6">
-                    <div class="flex-shrink-0">
-                        <div class="w-16 h-16 bg-[#0096c7] rounded-full flex items-center justify-center text-white font-bold text-xl">4</div>
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0">
+                            <div class="w-16 h-16 bg-[#00b4d8] rounded-xl flex items-center justify-center text-white font-bold text-2xl shadow-lg">3</div>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-3 text-[#03045e]">Development</h3>
+                            <p class="text-gray-600">Implementamos soluciones robustas utilizando metodologías ágiles y las últimas tecnologías. Soluciones útiles en ciclos cortos para resultados inmediatos.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3 class="text-2xl font-bold mb-3">Launch & Evolve</h3>
-                        <p class="text-gray-600 text-lg">Desplegamos el producto y realizamos optimizaciones continuas basadas en datos reales. Refinamos con datos y tu feedback para garantizar el máximo rendimiento.</p>
+                </div>
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0">
+                            <div class="w-16 h-16 bg-[#0096c7] rounded-xl flex items-center justify-center text-white font-bold text-2xl shadow-lg">4</div>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-3 text-[#03045e]">Launch & Evolve</h3>
+                            <p class="text-gray-600">Desplegamos el producto y realizamos optimizaciones continuas basadas en datos reales. Refinamos con datos y tu feedback para garantizar el máximo rendimiento.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -155,12 +161,17 @@
     <!-- Valores Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl md:text-5xl font-black text-center mb-16">
-                Nuestros <span class="text-[#ff5400]">Valores</span>
-            </h2>
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-black mb-4">
+                    Nuestros <span class="text-[#ff5400]">Valores</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Los principios que guían cada proyecto y cada relación con nuestros clientes
+                </p>
+            </div>
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="text-center p-8 bg-gray-50 rounded-xl">
-                    <div class="w-20 h-20 bg-[#ff5400] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div class="text-center p-8 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all border-2 border-transparent hover:border-[#ff5400]">
+                    <div class="w-20 h-20 bg-[#ff5400] rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                         </svg>
@@ -168,8 +179,8 @@
                     <h3 class="text-xl font-bold mb-3">Innovación</h3>
                     <p class="text-gray-600">Buscamos constantemente nuevas formas de resolver problemas y crear valor para nuestros clientes.</p>
                 </div>
-                <div class="text-center p-8 bg-gray-50 rounded-xl">
-                    <div class="w-20 h-20 bg-[#00b4d8] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div class="text-center p-8 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all border-2 border-transparent hover:border-[#00b4d8]">
+                    <div class="w-20 h-20 bg-[#00b4d8] rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
                         </svg>
@@ -177,8 +188,8 @@
                     <h3 class="text-xl font-bold mb-3">Colaboración</h3>
                     <p class="text-gray-600">Trabajamos como equipo, tanto internamente como con nuestros clientes, para lograr los mejores resultados.</p>
                 </div>
-                <div class="text-center p-8 bg-gray-50 rounded-xl">
-                    <div class="w-20 h-20 bg-[#0096c7] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div class="text-center p-8 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all border-2 border-transparent hover:border-[#0096c7]">
+                    <div class="w-20 h-20 bg-[#0096c7] rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                         </svg>
@@ -195,9 +206,14 @@
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-4xl md:text-5xl font-black mb-6">¿Listo para innovar?</h2>
             <p class="text-xl text-gray-200 mb-8">Empecemos a construir el futuro de tu empresa hoy mismo.</p>
-            <a href="contacto.html" class="inline-block bg-[#ff5400] hover:bg-[#ff6d00] text-white font-bold px-8 py-4 rounded-lg text-lg transition-all transform hover:scale-105 shadow-xl">
-                Contactar Ahora
-            </a>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contacto.html" class="inline-block bg-[#ff5400] hover:bg-[#ff6d00] text-white font-bold px-8 py-4 rounded-lg text-lg transition-all transform hover:scale-105 shadow-xl">
+                    Consulta Gratis
+                </a>
+                <a href="servicios.html" class="inline-block bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all backdrop-blur-sm border border-white/20">
+                    Ver Servicios
+                </a>
+            </div>
         </div>
     </section>
 
@@ -210,7 +226,7 @@
                     <ul class="space-y-2">
                         <li><a href="index.html" class="text-gray-300 hover:text-[#ff5400] transition-colors">Inicio</a></li>
                         <li><a href="nosotros.html" class="text-gray-300 hover:text-[#ff5400] transition-colors">Acerca de</a></li>
-                        <li><a href="index.html#trabajo" class="text-gray-300 hover:text-[#ff5400] transition-colors">Historias De Éxito</a></li>
+                        <li><a href="index.html#trabajo" class="text-gray-300 hover:text-[#ff5400] transition-colors">Portafolio</a></li>
                         <li><a href="contacto.html" class="text-gray-300 hover:text-[#ff5400] transition-colors">Contacto</a></li>
                     </ul>
                 </div>
@@ -232,7 +248,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h4 class="font-bold text-sm uppercase tracking-widest text-[#00b4d8] mb-4">Siga Con Nosotros</h4>
+                    <h4 class="font-bold text-sm uppercase tracking-widest text-[#00b4d8] mb-4">Síguenos</h4>
                     <div class="flex space-x-4">
                         <a href="#" class="text-gray-300 hover:text-[#ff5400] transition-colors">Instagram</a>
                         <a href="#" class="text-gray-300 hover:text-[#ff5400] transition-colors">Facebook</a>
